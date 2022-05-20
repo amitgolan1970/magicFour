@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="square_style" parent="Theme.AppCompat.Light">
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:textColor">@color/colorYellow</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:direction">left_to_right</item>
+    </style>
+</resources>

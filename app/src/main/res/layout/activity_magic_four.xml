@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MagicFourActivity">
+
+    <LinearLayout
+        android:background="#FF6E40"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center" android:gravity="center"
+        android:layoutDirection="ltr" android:textDirection="ltr"
+        >
+
+        <Button
+            style="@style/square_style"
+            android:id="@+id/btnr0c0"
+            />
+
+        <Button
+            style="@style/square_style"
+            android:id="@+id/btnr0c1"
+            />
+
+        <Button
+            style="@style/square_style"
+            android:id="@+id/btnr0c2"
+            />
+
+        <Button
+            style="@style/square_style"
+            android:id="@+id/btnr0c3"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:background="#FF6E40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center" android:gravity="center"
+        android:layoutDirection="ltr" android:textDirection="ltr"
+        >
+
+        <Button
+            style="@style/square_style"
+            android:id="@+id/btnr1c0"
+            />
+
+        <Button
+            style="@style/square_style"
+            android:id="@+id/btnr1c1"
+            />
+
+        <Button
+            style="@style/square_style"
+            android:id="@+id/btnr1c2"
+            />
+
+        <Button
+            style="@style/square_style"
+            android:id="@+id/btnr1c3"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="#FF6E40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center" android:gravity="center"
+        android:layoutDirection="ltr" android:textDirection="ltr"
+        >
+
+        <Button
+            style="@style/square_style"
+            android:id="@+id/btnr2c0"
+            />
+
+        <Button
+            style="@style/square_style"
+            android:id="@+id/btnr2c1"
+            />
+
+        <Button
+            style="@style/square_style"
+            android:id="@+id/btnr2c2"
+            />
+
+        <Button
+            style="@style/square_style"
+            android:id="@+id/btnr2c3"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="#FF6E40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center" android:gravity="center"
+        android:layoutDirection="ltr" android:textDirection="ltr"
+        >
+
+        <Button
+            style="@style/square_style"
+            android:id="@+id/btnr3c0"
+            />
+
+        <Button
+            style="@style/square_style"
+            android:id="@+id/btnr3c1"
+            />
+
+        <Button
+            style="@style/square_style"
+            android:id="@+id/btnr3c2"
+            />
+
+        <Button
+            style="@style/square_style"
+            android:id="@+id/btnr3c3"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center" android:gravity="center"
+        android:layoutDirection="ltr" android:textDirection="ltr"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTimerDisplayId"
+            android:hint="Timer"
+            />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMovesDisplayId"
+            android:hint="Moves"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTouchesDisplayId"
+            android:hint="Touches"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:id="@+id/tvBestResultsId"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="3dp" android:paddingRight="3dp"
+        android:text="Reset High Score"
+        android:textStyle="bold" android:textSize="12dp" android:textColor="@color/colorPrimaryDark" android:background="@color/colorWhite"
+        android:id="@+id/btnResetHighScoreId"
+        />
+
+
+    <SeekBar
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sbId"
+        />
+
+    <Button
+        android:layout_gravity="center" android:gravity="center"
+        android:textDirection="ltr" android:layoutDirection="ltr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_again"
+        android:textStyle="bold" android:textSize="18dp" android:textColor="@color/colorWhite" android:background="@color/colorPrimaryDark"
+        android:visibility="invisible"
+        android:id="@+id/btnPlayAgainId"
+        />
+
+    <Button
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center" android:gravity="center"
+        android:textDirection="ltr" android:layoutDirection="ltr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" android:textSize="18dp" android:textColor="@color/colorWhite" android:background="@color/colorPrimaryDark"
+        android:text="@string/shuffle"
+        android:id="@+id/btnShuffleId"
+        />
+
+
+</LinearLayout>
